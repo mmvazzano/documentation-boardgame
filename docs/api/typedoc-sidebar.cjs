@@ -1,0 +1,4 @@
+// @ts-check
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const typedocSidebar = { items: [{"type":"category","label":"Classes","items":[{"type":"doc","id":"api/classes/Rectangle","label":"Rectangle"}]},{"type":"category","label":"Interfaces","items":[{"type":"doc","id":"api/interfaces/Person","label":"Person"}]},{"type":"category","label":"Functions","items":[{"type":"doc","id":"api/functions/calculateRectangleArea","label":"calculateRectangleArea"},{"type":"doc","id":"api/functions/greetPerson","label":"greetPerson"},{"type":"doc","id":"api/functions/performAction","label":"performAction"}]}]};
+module.exports = typedocSidebar.items;
