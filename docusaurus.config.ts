@@ -6,6 +6,7 @@ const config: Config = {
   title: "Cartesi Boardgame",
   tagline: "Boardgame.io-Inspired Library for Cartesi",
   favicon: "img/favicon.ico",
+  trailingSlash: false,
 
   plugins: [
     [
