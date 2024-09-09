@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcartesi_boardgame=self.webpackChunkcartesi_boardgame||[]).push([[3254],{8773:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/documentation-boardgame/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

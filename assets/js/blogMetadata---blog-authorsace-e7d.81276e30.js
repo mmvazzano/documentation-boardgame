@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcartesi_boardgame=self.webpackChunkcartesi_boardgame||[]).push([[8706],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/documentation-boardgame/blog","blogTitle":"Blog","authorsListPath":"/documentation-boardgame/blog/authors"}')}}]);
