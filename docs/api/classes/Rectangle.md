@@ -26,7 +26,7 @@ La altura del rectángulo.
 
 #### Defined in
 
-moduleA.ts:15
+[moduleA.ts:15](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleA.ts#L15)
 
 ## Properties
 
@@ -36,7 +36,7 @@ moduleA.ts:15
 
 #### Defined in
 
-moduleA.ts:8
+[moduleA.ts:8](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleA.ts#L8)
 
 ***
 
@@ -46,7 +46,7 @@ moduleA.ts:8
 
 #### Defined in
 
-moduleA.ts:7
+[moduleA.ts:7](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleA.ts#L7)
 
 ## Methods
 
@@ -64,7 +64,7 @@ El área del rectángulo.
 
 #### Defined in
 
-moduleA.ts:24
+[moduleA.ts:24](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleA.ts#L24)
 
 ***
 
@@ -82,4 +82,4 @@ El perímetro del rectángulo.
 
 #### Defined in
 
-moduleA.ts:32
+[moduleA.ts:32](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleA.ts#L32)

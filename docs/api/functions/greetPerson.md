@@ -18,4 +18,4 @@ Un saludo personalizado.
 
 ## Defined in
 
-moduleB.ts:29
+[moduleB.ts:29](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleB.ts#L29)

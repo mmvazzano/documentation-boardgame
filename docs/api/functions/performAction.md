@@ -26,4 +26,4 @@ El resultado de la acción.
 
 ## Defined in
 
-moduleB.ts:17
+[moduleB.ts:17](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleB.ts#L17)

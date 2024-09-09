@@ -22,4 +22,4 @@ El área del rectángulo.
 
 ## Defined in
 
-moduleA.ts:43
+[moduleA.ts:43](https://github.com/mmvazzano/documentation-boardgame/blob/5c5b5470bb34fa09a12c3534ad977e474dc1b077/doc_methods/moduleA.ts#L43)
