@@ -6,40 +6,30 @@ const config: Config = {
   title: "Cartesi Boardgame",
   tagline: "Boardgame.io-Inspired Library for Cartesi",
   favicon: "img/favicon.ico",
+  url: "https://mmvazzano.github.io",
+  baseUrl: "/documentation-boardgame/",
+  organizationName: "mmvazzano",
+  projectName: "documentation-boardgame",
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
 
   plugins: [
     [
       "docusaurus-plugin-typedoc",
       {
-        entryPoints: ["./doc_methods/index.ts"], // Ruta a tu archivo de entrada
-        out: "./docs/api", // Ruta de salida para la documentación generada
-        tsconfig: "./tsconfig.json", // Ruta a tu archivo tsconfig.json
-        // Otras opciones de TypeDoc pueden ir aquí...
+        entryPoints: ["./doc_methods/index.ts"],
+        out: "./docs/api",
+        tsconfig: "./tsconfig.json",
       },
     ],
+    "@docusaurus/plugin-debug",
   ],
-
-  // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
-
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
-  },
 
   presets: [
     [
@@ -47,10 +37,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/mmvazzano/documentation-boardgame/edit/main/",
         },
         blog: {
           showReadingTime: true,
@@ -58,11 +46,8 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
+            "https://github.com/mmvazzano/documentation-boardgame/edit/main/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -75,7 +60,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Cartesi Boardgame",
@@ -130,10 +114,6 @@ const config: Config = {
         {
           title: "More",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "/blog",
-            // },
             {
               label: "GitHub",
               href: "https://github.com/Think-and-Dev/cartesi-boardgame",
@@ -141,7 +121,6 @@ const config: Config = {
           ],
         },
       ],
-      // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
