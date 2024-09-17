@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcartesi_boardgame=self.webpackChunkcartesi_boardgame||[]).push([[2391],{7331:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-debug","id":"debug-instance-1"}')}}]);
