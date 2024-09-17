@@ -33,3 +33,11 @@ Local Library Configuration:
    - Start the application with `yarn start`.
 
 **Note**: If you want to run the application **without using NONODO**, you must run the **CVM (Cartesi Virtual Machine)** with `cartesi build` and then `cartesi run`, it's not necessary to do `yarn start` in the backend or link the repositories. Simply running `yarn install` in the backend, then `cartesi build` and `cartesi run` will set up all the necessary structure.
+
+Como levantar un entorno de desarrollo local??
+
+cartesi build adentro del directorio con el dockerfile -- compila ma maquina de cartesi (tarda en compilar)
+
+cartesi run -- correr la maquina virtual, levanta el ambiente de desarrollo (la bch local (anvil), un explorer, el graphQL y un endpoint de inspect)
+
+Si uso cartesi build cada vez que cambio la app hay que buildearla. Para evitar esto esta nonodo que levanta todo lo mismo que el run menos el backend. Enotnces corro el backend en local con yarn start y el backend escucha o manda instrucciones a un puerto determinado. La interaccion con la app en el frontend es la misma, es transparente lo que pasa atras si estoy corriendo nonodo o cartesi. Hay tres terminales (bch local, back, y front).

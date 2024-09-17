@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Cartesi Boardgame",
   tagline: "Boardgame.io-Inspired Library for Cartesi",
-  favicon: "img/favicon.ico",
+  favicon: "img/image.png",
   url: "https://mmvazzano.github.io",
   baseUrl: "/documentation-boardgame/",
   organizationName: "mmvazzano",
@@ -28,7 +28,7 @@ const config: Config = {
         tsconfig: "./tsconfig.json",
       },
     ],
-    "@docusaurus/plugin-debug",
+    ["@docusaurus/plugin-debug", { id: "debug-instance-1" }],
   ],
 
   presets: [
